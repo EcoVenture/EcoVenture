@@ -1,0 +1,204 @@
+/* Background */
+body {
+  background: rgb(2015, 127, 44);
+  background: linear-gradient(to right, rgb(2015, 127, 44), rgb(116, 79, 60));
+}
+
+/* Navigation Bar */
+ul {
+  list-style-type: none;
+  font-family: 'Zilla Slab', serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 201);
+  width: 100%;
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+li {
+  display: inline;
+}
+a {
+  padding: 16px;
+  text-decoration: none;
+  color: black;
+  font-family: 'Zilla Slab', serif;
+}
+li a:hover{
+  background: rgb(140, 128, 94);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(255, 255, 201);
+}
+.active {
+  background: rgb(45, 56, 58);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  color: rgb(255, 255, 201);
+}
+
+/* Banner */
+.ban {
+	width: 100%;
+	height: auto;
+}
+.piclink {
+  padding: 0px;
+}
+
+/* Picture Line */
+.picline{
+  width: 100%;
+  height: auto;
+}
+.pic1 {
+  display: inline;
+  width: 40%;
+  height: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  float: right;
+  vertical-align: middle;
+}
+.pic2{
+  display: inline;
+  width: 19%;
+  height: auto;
+  padding-left: .5%;
+  padding-right: .5%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  vertical-align: middle;
+}
+.pic3{
+  display: inline;
+  width: 40%;
+  height: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  float: left;
+  vertical-align: middle;
+}
+
+/* About Us */
+p{
+  font-family: 'Zilla Slab', serif;
+  font-size: 22px;
+}
+h1{
+  font-family: 'Rock Salt', cursive;
+  font-size: 40px;
+}
+.acg{
+  padding: 10px;
+}
+.acg a{
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 0;
+}
+
+/* Girls Who Code */
+h2{
+  font-family: 'Rock Salt', cursive;
+  font-size: 30px;
+}
+.agwc{
+  padding: 10px;
+}
+.agwc a{
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 0;
+}
+
+/* Contact */
+.contact {
+  padding: 10px;
+}
+.contact a {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 0;
+}
+
+/* Bios */
+h3{
+  font-family: 'Rock Salt', cursive;
+  font-size: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 0px;
+  vertical-align: top;
+  line-height: 1;
+}
+.bio {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: auto;
+}
+
+.face {
+  display: table-cell;
+  width: 17%;
+  height: auto;
+  vertical-align: middle;
+}
+.text {
+  display: table-cell;
+  width: 81%;
+  vertical-align: middle;
+}
+.headshot {
+  width: 100%;
+  height: auto;
+}
+.bio p {
+  padding: 10px;
+  margin: 0px;
+  font-size: 20px;
+}
+.bio a {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+@media only screen and (max-width: 600px) {
+  .face {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding-top: 20px;
+  }
+  .text {
+    padding-top: 15px;
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+}
+
+/* Logo */
+.logo {
+  width: 15%;
+  height: auto;
+  margin: auto;
+  display: block;
+  padding: 30px;
+}

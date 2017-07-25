@@ -1,0 +1,93 @@
+/* Background */
+body {
+  background: rgb(167, 188, 189);
+  background: linear-gradient(to right, rgb(167, 188, 189), rgb(36, 90, 111));
+}
+
+/* Navigation Bar */
+ul {
+  list-style-type: none;
+  font-family: 'Zilla Slab', serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(208, 217, 212);
+  width: 100%;
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+li {
+  display: inline;
+}
+a {
+  padding: 16px;
+  text-decoration: none;
+  color: black;
+}
+li a:hover{
+  background: rgb(66, 83, 95);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(208, 217, 212);
+}
+.active {
+  background: rgb(41, 122, 138);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  color: rgb(208, 217, 212);
+}
+
+/* Banner */
+.ban {
+	width: 100%;
+	height: auto;
+}
+.piclink {
+  padding: 0px;
+}
+
+/* Paragraphs */
+p{
+  font-family: 'Zilla Slab', serif;
+  font-size: 22px;
+}
+
+h1{
+  font-family: 'Rock Salt', cursive;
+  font-size: 40px;
+}
+
+h2{
+  font-family: 'Rock Salt', cursive;
+  font-size: 30px;
+  line-height: 1;
+}
+.how {
+	padding: 10px;
+}
+
+/* links */
+.links a{
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: 'Zilla Slab', serif;
+  font-size: 22px;
+  display: block;
+  padding: 0px;
+}
+h3{
+  font-family: 'Rock Salt', cursive;
+  font-size: 25px;
+}
+.links {
+	padding: 10px;
+}
+
+/* Logo */
+.logo {
+  width: 15%;
+  height: auto;
+  margin: auto;
+  display: block;
+  padding: 30px;
+}

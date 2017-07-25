@@ -1,0 +1,85 @@
+/* Background */
+body {
+  background: rgb(160, 208, 31);
+  background: linear-gradient(to right, rgb(160, 208, 31), rgb(26, 32, 24));
+}
+
+
+/* Navigation Bar */
+ul {
+  list-style-type: none;
+  font-family: 'Zilla Slab', serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(221, 195, 176);
+  width: 100%;
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+li {
+  display: inline;
+}
+a {
+  padding: 16px;
+  text-decoration: none;
+  color: black;
+
+}
+li a:hover{
+  background: rgb(66, 44, 33);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(221, 195, 176);
+}
+.active {
+  background: rgb(128, 99, 88);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  color: rgb(221, 195, 176);
+}
+
+/* Banner */
+.ban {
+	width: 100%;
+	height: auto;
+}
+.piclink {
+  padding: 0px;
+}
+
+/* Text */
+h1 {
+  font-family: 'Rock Salt', cursive;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: 'Rock Salt', cursive;
+  font-size: 30px;
+}
+
+p {
+  font-family: 'Zilla Slab', serif;
+  font-size: 22px;
+}
+.credits a {
+  font-family: 'Zilla Slab', serif;
+  font-size: 22px;
+  text-decoration: underline;
+  font-weight: bold;
+  display: block;
+  padding: 0px;
+}
+.credits {
+	padding: 10px;
+}
+
+/* Logo */
+.logo {
+  width: 15%;
+  height: auto;
+  margin: auto;
+  display: block;
+  padding: 30px;
+}
